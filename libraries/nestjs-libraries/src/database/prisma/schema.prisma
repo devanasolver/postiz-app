@@ -848,10 +848,9 @@ enum State {
 }
 
 enum SubscriptionTier {
-  STANDARD
+  FREE
+  STARTER
   PRO
-  TEAM
-  ULTIMATE
 }
 
 enum Period {

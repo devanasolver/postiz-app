@@ -100,7 +100,7 @@ export class PermissionsService {
           checkFrom.toDate()
         );
 
-        if (count < options.posts_per_month) {
+        if (options.posts_per_month === -1 || count < options.posts_per_month) {
           can(action, section);
           continue;
         }
