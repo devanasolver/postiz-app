@@ -1,0 +1,21 @@
+
+> gitroom@1.0.0 dev:frontend /app
+> rm -rf apps/frontend/dist && pnpm --filter ./apps/frontend run dev
+
+
+> postiz-frontend@1.0.0 dev /app/apps/frontend
+> dotenv -e ../../.env -- next dev -p 4200
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:4200
+  - Experiments (use with caution):
+    · proxyTimeout
+    · instrumentationHook
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ○ Compiling /instrumentation ...
